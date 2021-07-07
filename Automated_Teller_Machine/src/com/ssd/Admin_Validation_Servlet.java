@@ -278,7 +278,7 @@ public class Admin_Validation_Servlet extends HttpServlet {
 
 				pWriter.println("<script type=\"text/javascript\">");
 				pWriter.println("alert('Customer has No Transactions in this Period');");
-				// pWriter.println("location='admin_gui_page.jsp';");
+				pWriter.println("location='admin_gui_page.jsp';");
 				pWriter.println("</script>");
 				/*
 				 * RequestDispatcher dispatcher =
